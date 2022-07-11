@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>form tag</h1>
+    <form action="/user" method="post">
+      <p>
+        username:
+        <input type="text" name="name" id="name" placeholder="username" />
+      </p>
+      <p>hidden<input type="hidden" name="hidden" /></p>
+      <p>name: <input type="text" value="kika" disabled /></p>
+      <p>password: <input type="password" name="password" id="password" /></p>
+      <p>
+        gender: <label><input type="radio" name="gender" />male</label
+        ><label><input type="radio" name="gender" />female</label>
+        <label><input type="radio" name="gender" checked />secrect</label>
+      </p>
+      <p>
+        hobby:
+        <label><input type="checkbox" name="hobby" checked />basketball</label>
+        <label><input type="checkbox" name="hobby" />football</label>
+        <label><input type="checkbox" name="hobby" />pingpang</label>
+      </p>
+      <p>
+        choose
+        <select name="province" id="">
+          <option value="hunan">hunan</option>
+          <option value="jiangxi">jiangxi</option>
+          <option value="shanghai">shanghai</option>
+          <option value="beijing">beijing</option>
+        </select>
+      </p>
+      <p>comment: <br /><textarea name="" id="" cols="30" rows="10"></textarea></p>
+      <p>
+        <input type="button" value="submit" />
+        <button type="submit">submit</button>
+        <input type="reset" value="reset" />
+        <button type="reset">reset</button>
+      </p>
+      <h1>html5 new</h1>
+      <p>color<input type="color" name="" id="" /></p>
+      <p>date<input type="date" name="" id="" /></p>
+      <p>time<input type="time" name="" id="" /></p>
+      <p>datetime<input type="datetime-local" name="" id="" /></p>
+      <p>week<input type="week" name="" id="" /></p>
+      <p>file<input type="file" name="" id="" /></p>
+      <p>email<input type="email" name="" id="" /></p>
+      <p>number<input type="number" name="" id="" min="4" max="99" /></p>
+      <p>range<input type="range" name="" id="" /></p>
+      <p>search<input type="search" name="" id="" /></p>
+      <p>url<input type="url" name="" id="" /></p>
+      <p>
+        datalist <input type="text" list="lang-list" />
+        <datalist id="lang-list">
+          <option value="java">java</option>
+          <option value="go">go</option>
+          <option value="python">python</option>
+          <option value="javascript">javascript</option>
+          <option value="c++">c++</option>
+        </datalist>
+      </p>
+    </form>
+  </body>
+</html>
