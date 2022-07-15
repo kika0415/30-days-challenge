@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* div {
+        display: none;
+      }
+      span {
+        display: none;
+      } */
+      .d {
+        display: none;
+      }
+      .v {
+        visibility: hidden;
+      }
+      .d1 {
+        display: none;
+      }
+      .d1 span {
+        display: block;
+      }
+      .v1 {
+        visibility: hidden;
+      }
+      .v1 span {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <div>div</div>
+    <span>span</span>
+    <p>p front <span class="d">span hidden</span>p behind</p>
+    <p>p front <span class="v">span hidden</span>p behind</p>
+    <div class="d1">1div front <span>span hidden</span> div behind</div>
+    <div class="v1">2 div front <span>span hidden</span> div behind</div>
+  </body>
+</html>
