@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 400px;
+        height: 400px;
+        background-color: skyblue;
+        /* transition: border-radius 1s linear 2s; */
+        /* transition-property: width;
+        transition-duration: 2s;
+				transition-delay: 2s;
+				transition-timing-function: ease; */
+        /* transition: all 2s; */
+        transition: width 2s, height 2s 2s, border-radius 2s 4s;
+      }
+      .box:hover {
+        border-radius: 200px;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <p>kl</p>
+  </body>
+</html>
