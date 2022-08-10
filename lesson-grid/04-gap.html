@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid-container {
+        background-color: skyblue;
+        display: inline-grid;
+        grid-template-rows: repeat(3, 100px);
+        grid-template-columns: repeat(3, 100px);
+        margin: 50px;
+        /* row-gap: 20px;
+        column-gap: 10px; */
+        /* gap: 20px 10px; */
+        /* gap: 10%; */
+        grid-template-areas: ' a a b' 'a a b' 'c c c';
+      }
+      .item1 {
+        grid-area: a;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="gird-item item1">1</div>
+      <div class="gird-item">2</div>
+      <div class="gird-item">3</div>
+      <div class="gird-item">4</div>
+      <div class="gird-item">5</div>
+      <div class="gird-item">6</div>
+      <div class="gird-item">7</div>
+      <div class="gird-item">8</div>
+      <div class="gird-item">9</div>
+      <!-- <div class="gird-item">10</div> -->
+    </div>
+  </body>
+</html>
